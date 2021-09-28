@@ -59,6 +59,7 @@ body{
 .information{
     margin-top: 200px;
     margin-left: 2%;
+    float: left;
 }
 .infoH{
     color: #9B59B6;
@@ -110,5 +111,14 @@ body{
 }
 
 /* Offers */
+.offer{
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left;
+}
 
+/* Examples */
+#example1{
+    clear: both;
+}
 
