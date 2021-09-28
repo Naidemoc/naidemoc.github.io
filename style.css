@@ -86,7 +86,7 @@ body{
     float: right;
     margin-right: 15%;
     margin-top: 250px;
-    color: #3498DB;
+    color: #B69B59;
 }
 #info2Text{
     float: right;
@@ -100,7 +100,7 @@ body{
     margin: auto;
 }
 #infoH3{
-    color: #E74C3C;
+    color: #59B69B;
     clear: both;
     padding-top: 250px;
     text-align: center;
@@ -108,8 +108,7 @@ body{
 #info3Text{
     width: 100%;
 }
+
 /* Offers */
 
-.offer{
-    clear: both;
-}
+
