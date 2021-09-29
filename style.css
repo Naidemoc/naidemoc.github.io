@@ -196,22 +196,79 @@ body{
     font-size: 25px;
 }
 
-/* Examples */
+/* Example */
 .examples{
-    margin-top: 10px;
+    margin-top: 200px;
+    margin-left: 2%;
+    float: left;
 }
-.examples h1{
+.exampleH{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+.exampleText{
+    color: #34495E;
+    font-size: 25px;
+    width: 30%;
+}
+
+/* Mallar, first section of examples */
+#exampleH1{
+    color: #9B59B6;
+    float: left;
+    margin-left: 20%;
+    margin-top: 200px;
+}
+#example1Text{
+    padding-top: 180px;
+    padding-bottom: 50px;
     font-size: 50px;
+    margin-left: 60%;
+    margin-right: 10%;
+}
+
+/* Gallery, second section of examples */
+#exampleSection2{
+    width: 60%;
+    margin: auto;
+}
+#exampleH2{
+    color: #59B69B;
+    clear: both;
+    padding-top: 150px;
     text-align: center;
 }
-.examples a{
-    color: #77A863;
+#example3Text{
+    width: 100%;
+}
+.gallery{
+    margin-bottom: 700px;
+}
+
+/* Gallery objects */
+.galleryObj{
+    border-style: groove;
+    border-radius: 1px;
+    border-color: #D88A78;
+    border-radius: 5px;
+    height: 110%;
+    width: 30%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    float: left;
+    font-size: 26px;
+    margin-left: 10%;
+}
+.galleryObj h1{
+    color: #D88A78;
+    text-decoration: underline;
 }
 
 /* Footer */
 footer{
     background-color: #E7E7E7;
     height: 100px;
+    clear: both;
 }
 footer p{
     text-align: center;
@@ -219,4 +276,3 @@ footer p{
     margin: auto;
     width: 100%;
 }
-
