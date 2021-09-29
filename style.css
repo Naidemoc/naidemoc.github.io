@@ -13,7 +13,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #D878C6;
+    background-color: #B45CA4;
     overflow-x: hidden;
     padding-top: 0px;
 }
@@ -112,9 +112,24 @@ body{
 
 /* Offers */
 .offer{
+    border-style: groove;
+    border-radius: 1px;
+    border-color: #D88A78;
+    border-radius: 5px;
+    width: 30%;
     padding-left: 5%;
-    padding-right: 5%;
     float: left;
+    font-size: 26px;
+}
+.offTitle{
+    color: #D88A78;
+}
+#off1{
+    margin-left: 12%;
+    margin-right: 5%;
+}
+#off2{
+    margin-right: 5%;
 }
 
 /* Examples */
