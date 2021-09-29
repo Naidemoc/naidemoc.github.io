@@ -27,7 +27,8 @@ body{
 }
 .sidenav a:hover {
     background-color: #BC57A9;
-  }
+}
+
 /* Hero article */
 .mainM{
     margin-left: 110px;
@@ -38,13 +39,13 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: relative; 
 }
 .heroText {
     float: left;
     position: absolute;
     top: 40%;
-    left: 390px;
+    left: 30%;
     transform: translate(-50%, -50%);
     color: black;
   } 
@@ -55,6 +56,24 @@ body{
     font-size: 20px;
 }
 
+/* Examples button */
+.button {
+    border: none;
+    color: white;
+    padding: 10px 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #D878C6;
+    position: relative;
+    top: 150px;
+    left: 65%;
+    font-size: 30px;
+}
+
 /* Information */
 .information{
     margin-top: 200px;
@@ -62,7 +81,6 @@ body{
     float: left;
 }
 .infoH{
-    color: #9B59B6;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
 }
@@ -74,6 +92,7 @@ body{
 
 /* First section of information */
 #infoH1{
+    color: #9B59B6;
     float: left;
     margin-left: 10%;
 }
@@ -116,6 +135,7 @@ body{
     border-radius: 1px;
     border-color: #D88A78;
     border-radius: 5px;
+    height: 400px;
     width: 30%;
     padding-left: 5%;
     float: left;
@@ -123,6 +143,10 @@ body{
 }
 .offTitle{
     color: #D88A78;
+    text-decoration: underline;
+}
+.offTitle a:hover{
+    color: blueviolet;
 }
 #off1{
     margin-left: 12%;
@@ -132,8 +156,67 @@ body{
     margin-right: 5%;
 }
 
-/* Examples */
-#example1{
+/*Offer info*/
+.offInfo{
+    padding-top: 50px;
+    padding-left: 20%;
     clear: both;
+    width: 60%;
+}
+.offInfo h1{
+    color: #9B59B6;
+    font-size: 50px;
+}
+.offInfo p{
+    color: #34495E;
+    font-size: 23px;
+}
+
+/* Interested? */
+.contactUs{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+.contactUs h1{
+    color: #74B659;
+    text-align: center;
+    font-size: 100px;
+}
+.contactUs h2{
+    color: #00004d;
+    text-align: center;
+    margin-top: -50px;
+    font-size: 50px;
+}
+.contactUs p{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Examples */
+.examples{
+    margin-top: 10px;
+}
+.examples h1{
+    font-size: 50px;
+    text-align: center;
+}
+.examples a{
+    color: #77A863;
+}
+
+/* Footer */
+footer{
+    background-color: #E7E7E7;
+    height: 100px;
+}
+footer p{
+    text-align: center;
+    padding-top: 40px;
+    margin: auto;
+    width: 100%;
 }
 
