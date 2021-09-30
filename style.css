@@ -164,11 +164,11 @@ body{
 }
 .offInfo h1{
     color: #9B59B6;
-    font-size: 50px;
+    font-size: 3vw;
 }
 .offInfo p{
     color: #34495E;
-    font-size: 23px;
+    font-size: 1.5vw;
 }
 
 /* Interested? */
