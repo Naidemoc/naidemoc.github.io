@@ -8,7 +8,7 @@ body{
 /* Side nav */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 110px; 
+    width: 7.4%; 
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1;
     top: 0;
@@ -18,9 +18,9 @@ body{
     padding-top: 0px;
 }
 .sidenav a {
-    padding: 15px 8px 15px 16px;
+    padding: 8% 8% 8% 8%;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.4vw;;
     font-weight: 600;
     color: white;
     display: block;
@@ -31,7 +31,7 @@ body{
 
 /* Hero article */
 .mainM{
-    margin-left: 110px;
+    margin-left: 7.4%;
 }
 .heroImage {
     background-image: linear-gradient(rgba(230, 230, 230, 0.5), rgba(236, 236, 236, 0.5)), url("https://cdn.discordapp.com/attachments/360112061134536705/892514364026937364/unknown.png");
@@ -50,10 +50,10 @@ body{
     color: black;
   } 
 #heroHeader{
-    font-size: 45px;
+    font-size: 2.5vw;;
 }
 #heroText{
-    font-size: 20px;
+    font-size: 1.4vw;;
 }
 
 /* Examples button */
