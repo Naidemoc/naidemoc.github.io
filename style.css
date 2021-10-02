@@ -276,3 +276,25 @@ footer p{
     margin: auto;
     width: 100%;
 }
+
+/* Contact */
+.grid-container {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 20%;
+    display: grid;
+    grid-column-gap: 15%;
+    grid-row-gap: 70px;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 300px 300px 300px;
+    text-align: center;
+}
+.grid-item{
+    background-color: burlywood;
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
