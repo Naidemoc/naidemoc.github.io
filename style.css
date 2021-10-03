@@ -129,6 +129,17 @@ body{
     width: 100%;
 }
 
+/* INFORMATION TESTING --------------------------------------------*/
+
+#grid-containerinfo{
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 400px 400px 400px;
+}
+.infogrid
+
+
 /* Offers */
 .offer{
     border-style: groove;
@@ -278,7 +289,7 @@ footer p{
 }
 
 /* Contact */
-.grid-container {
+#grid-containercontact{
     margin-top: 70px;
     margin-bottom: 100px;
     margin-left: 20%;
