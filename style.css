@@ -202,9 +202,6 @@ body{
     margin-left: 12%;
     margin-right: 5%;
 }
-#testoff2{
-    margin-right: 5%;
-}
 /* Offers */
 .offer{
     border-style: groove;
@@ -226,9 +223,6 @@ body{
 }
 #off1{
     margin-left: 12%;
-    margin-right: 5%;
-}
-#off2{
     margin-right: 5%;
 }
 
@@ -395,29 +389,39 @@ footer p{
     .mainM{
         margin-left: 0;
     }
-
+    #testoff1{
+        margin-top: 100px;
+    }
+    #testoff2{
+        margin-left: 12%;
+        margin-top: 400px;
+    }
 
     #grid-containerinfo{
         grid-template-columns: 100%;
-        grid-auto-rows: minmax(50px, 500px);
+        grid-auto-rows: minmax(50px, 200px);
     }
     #infoitem2{
         grid-row-start: 2;
         grid-row-end: 3;
+        margin: 0;
     }
     #infoitem4{
         grid-row-start: 3;
         grid-row-end: 4;
+        margin: 0;
     }
     #infoitem3{
         grid-row-start: 4;
         grid-row-end: 5;
         text-align: left;
+        margin: 0;
     }
     #infoitem5{
         grid-row-start: 5;
         grid-row-end: 6;
         grid-column-end: 2;
+        margin: 0;
     }
     #infoitem6{
         grid-row-start: 6;
