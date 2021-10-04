@@ -5,6 +5,7 @@ body{
     background-color: #f6f6f6;
 }
 
+
 /* Side nav */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -139,7 +140,6 @@ body{
     grid-template-rows: 400px 400px 70px 200px 400px;
     grid-column-gap: 5%;
     grid-row-gap: 100px;
-
     align-items: center;
 }
 .testinfoText{
@@ -385,4 +385,47 @@ footer p{
 }
 #item1 h1{
     font-size: 30px;
+}
+
+/* MOBILE STUFF MOBILE STUFF PLEASE NOTE THAT THIS IS MOBILE STUFF AAAH TEXT YUP */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #grid-containerinfo{
+        grid-template-columns: 100%;
+        grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px;
+    }
+    #infoitem2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #infoitem4{
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #infoitem3{
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    #infoitem5{
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-end: 2;
+    }
+    #infoitem6{
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-end: 2;
+    }
+    #infoitem7{
+        grid-row-end: 8;
+        grid-row-start: 9;
+    }
+    #infoitem8{
+        grid-row-end: 10;
+        grid-row-start: 11;
+    }
+    .button {
+        clear: both;
+    }
 }
