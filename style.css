@@ -389,9 +389,17 @@ footer p{
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    .sidenav{
+        display: none;
+    }
+    .mainM{
+        margin-left: 0;
+    }
+
+
     #grid-containerinfo{
         grid-template-columns: 100%;
-        grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px;
+        grid-auto-rows: minmax(50px, 500px);
     }
     #infoitem2{
         grid-row-start: 2;
@@ -402,26 +410,33 @@ footer p{
         grid-row-end: 4;
     }
     #infoitem3{
-        grid-row-start: 5;
-        grid-row-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: left;
     }
     #infoitem5{
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 6;
         grid-column-end: 2;
     }
     #infoitem6{
-        grid-row-start: 7;
-        grid-row-end: 8;
+        grid-row-start: 6;
+        grid-row-end: 7;
         grid-column-end: 2;
+        text-align: left;
+        margin-left: 0%;
+        width: 100%;
     }
     #infoitem7{
+        grid-row-end: 7;
+        grid-row-start: 8;
+    }
+    #infoitem8{
         grid-row-end: 8;
         grid-row-start: 9;
     }
-    #infoitem8{
-        grid-row-end: 10;
-        grid-row-start: 11;
+    .testinfoH{
+        font-size: 70px;
     }
     .button {
         clear: both;
