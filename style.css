@@ -136,7 +136,7 @@ body{
     margin-left: 6%;
     display: grid;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 400px 400px 70px 200px;
+    grid-template-rows: 400px 400px 70px 200px 400px;
     grid-column-gap: 5%;
     grid-row-gap: 100px;
 
@@ -177,6 +177,35 @@ body{
     width: 60%;
     margin-left: 19%;
     margin-bottom: 100px;
+}
+#infoitem7{
+    align-self: center;
+    align-items: center;
+}
+.testoffer{
+    border-style: groove;
+    border-radius: 1px;
+    border-color: #D88A78;
+    border-radius: 5px;
+    height: 400px;
+    width: 75%;
+    padding-left: 5%;
+    float: left;
+    font-size: 26px;
+}
+.testoffTitle{
+    color: #D88A78;
+    text-decoration: underline;
+}
+.testoffTitle a:hover{
+    color: blueviolet;
+}
+#testoff1{
+    margin-left: 12%;
+    margin-right: 5%;
+}
+#testoff2{
+    margin-right: 5%;
 }
 /* Offers */
 .offer{
