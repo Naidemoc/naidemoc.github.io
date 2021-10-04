@@ -44,9 +44,6 @@ body{
 }
 .heroText {
     float: left;
-    position: absolute;
-    top: 40%;
-    left: 30%;
     transform: translate(-50%, -50%);
     color: black;
   } 
@@ -137,7 +134,7 @@ body{
     margin-left: 6%;
     display: grid;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 400px 400px 70px 200px 400px;
+    grid-auto-rows: minmax(50px, 300px);
     grid-column-gap: 5%;
     grid-row-gap: 100px;
     align-items: center;
@@ -427,5 +424,8 @@ footer p{
     }
     .button {
         clear: both;
+    }
+    .main{
+        display: none;
     }
 }
