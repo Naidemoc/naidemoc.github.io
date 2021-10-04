@@ -396,6 +396,10 @@ footer p{
         margin-left: 12%;
         margin-top: 400px;
     }
+    .offInfo{
+        width: 90%;
+        margin-left: -10%;
+    }
 
     #grid-containerinfo{
         grid-template-columns: 100%;
