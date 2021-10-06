@@ -381,8 +381,53 @@ footer p{
 
 /* MOBILE STUFF MOBILE STUFF PLEASE NOTE THAT THIS IS MOBILE STUFF AAAH TEXT YUP */
 
+.topnav {
+    display: none;
+    overflow: hidden;
+    background-color: #D878C6;
+    position: relative;
+}
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+  
+  /* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+  /* Style the hamburger menu */
+.topnav a.icon {
+    background: #D878C6;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+  /* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #BC57A9;
+    color: white;
+}
+  
+  /* Style the active link (or home/logo) */
+.active {
+    background-color: #BC57A9;
+    color: white;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    .topnav{
+        display: block;
+    }
     .sidenav{
         display: none;
     }
