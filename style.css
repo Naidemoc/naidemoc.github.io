@@ -53,6 +53,7 @@ body{
 }
 #heroText{
     font-size: 20px;
+    width: 80%;
 }
 
 /* Examples button */
@@ -108,7 +109,7 @@ body{
     color: #B69B59;
 }
 #info2Text{
-    float: right;
+    text-align: right;
     margin-top: 200px;
     margin-right: 15%;
 }
@@ -385,7 +386,7 @@ footer p{
     display: none;
     overflow: hidden;
     background-color: #D878C6;
-    position: relative;
+    position: sticky;
 }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -454,6 +455,7 @@ footer p{
         grid-row-start: 2;
         grid-row-end: 3;
         margin: 0;
+        float: left;
     }
     #infoitem4{
         grid-row-start: 3;
@@ -496,5 +498,44 @@ footer p{
     }
     .main{
         display: none;
+    }
+    #testinfo2Text{
+        text-align: left;
+    }
+    #item1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        align-self: center;
+    }
+    #item2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        align-self: center;
+    }
+    #item3{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        align-self: center;
+    }
+    #item4{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        align-self: center;
+    }
+    #item5{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        align-self: center;
+    }
+    .grid-item img{
+        width: 230px;
+    }
+    .grid-item{
+        width: 250%;
+    }
+    #grid-containercontact{
+        row-gap: 200px;
     }
 }
