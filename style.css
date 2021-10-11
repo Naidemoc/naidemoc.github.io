@@ -437,19 +437,22 @@ footer p{
     }
     #testoff1{
         margin-top: 100px;
+        margin-left: 8%;
     }
     #testoff2{
-        margin-left: 12%;
+        margin-left: 8%;
         margin-top: 400px;
     }
     .offInfo{
         width: 90%;
         margin-left: -10%;
+        padding-right: 10%;
     }
 
     #grid-containerinfo{
         grid-template-columns: 100%;
         grid-auto-rows: minmax(50px, 200px);
+        margin-right: 5%;
     }
     #infoitem2{
         grid-row-start: 2;
@@ -537,5 +540,8 @@ footer p{
     }
     #grid-containercontact{
         row-gap: 200px;
+    }
+    .offInfo p{
+        margin-right: 10%;
     }
 }
