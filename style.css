@@ -35,7 +35,7 @@ body{
     margin-left: 110px;
 }
 .heroImage {
-    background-image: linear-gradient(rgba(230, 230, 230, 0.5), rgba(236, 236, 236, 0.5)), url("https://cdn.discordapp.com/attachments/360112061134536705/892514364026937364/unknown.png");
+    background-image: linear-gradient(rgba(230, 230, 230, 0.5), rgba(236, 236, 236, 0.5)), url("images/hero.png");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -607,5 +607,15 @@ footer p{
     }
     .offInfo p{
         margin-right: 10%;
+    }
+    .examplegridcontainer{
+        display: grid;
+        grid-template-rows: 200px 200px 300px 400px;
+        grid-template-columns: 100%;
+        margin-left: 5%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        column-gap: 0%;
+        row-gap: 150px;
     }
 }
