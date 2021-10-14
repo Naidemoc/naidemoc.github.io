@@ -267,7 +267,52 @@ body{
     font-size: 25px;
 }
 
+
 /* Example */
+
+.examplegridcontainer{
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 40% 40%;
+    margin-left: 5%;
+    margin-top: 50px;
+    column-gap: 10%;
+    row-gap: 50px;
+}
+.examplegriditem{
+    background-color: yellow;
+}
+#examplegriditem1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#examplegriditem2{
+    grid-row-start: 2;
+    grid-row-end: 3
+}
+#examplegriditem3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#examplegriditem4{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+
+/*
+#grid-containerexample{
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 20% 20% 20%;
+    color: yellow;
+}*/
+
+/*
 .examples{
     margin-top: 200px;
     margin-left: 2%;
@@ -284,7 +329,7 @@ body{
 }
 
 /* Mallar, first section of examples */
-#exampleH1{
+/*#exampleH1{
     color: #9B59B6;
     float: left;
     margin-left: 20%;
@@ -296,10 +341,10 @@ body{
     font-size: 50px;
     margin-left: 60%;
     margin-right: 10%;
-}
+}*/
 
 /* Gallery, second section of examples */
-#exampleSection2{
+/*#exampleSection2{
     width: 60%;
     margin: auto;
 }
@@ -316,7 +361,7 @@ body{
     margin-bottom: 700px;
 }
 
-/* Gallery objects */
+/* Gallery objects *//*
 .galleryObj{
     border-style: groove;
     border-radius: 1px;
@@ -333,7 +378,7 @@ body{
 .galleryObj h1{
     color: #D88A78;
     text-decoration: underline;
-}
+}*/
 
 /* Footer */
 footer{
