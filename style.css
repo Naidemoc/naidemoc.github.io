@@ -136,9 +136,9 @@ body{
     margin-left: 6%;
     display: grid;
     grid-template-columns: 45% 45%;
-    grid-auto-rows: minmax(50px, 300px);
+    grid-template-rows: 100px 100px 50px 100px 100px;
     grid-column-gap: 5%;
-    grid-row-gap: 100px;
+    grid-row-gap: 400px;
     align-items: center;
 }
 .testinfoText{
@@ -177,6 +177,7 @@ body{
     width: 60%;
     margin-left: 19%;
     margin-bottom: 100px;
+    margin-top: -400px;
 }
 #infoitem7{
     align-self: center;
@@ -517,6 +518,7 @@ footer p{
         grid-template-columns: 100%;
         grid-auto-rows: minmax(50px, 200px);
         margin-right: 5%;
+        row-gap: 250px;
     }
     #infoitem2{
         grid-row-start: 2;
@@ -548,6 +550,7 @@ footer p{
         text-align: left;
         margin-left: 0%;
         width: 100%;
+        margin-top: -200px;
     }
     #infoitem7{
         grid-row-end: 7;
