@@ -282,7 +282,7 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
     column-gap: 10%;
-    row-gap: 50px;
+    row-gap: 150px;
 }
 #examplegriditem1{
     text-align: center;
@@ -308,13 +308,14 @@ body{
     color: #59B69B;
 }
 #examplegriditem4{
-    text-align: left;
+    text-align: center;
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 1;
     grid-column-end: 2;
 }
 #examplegriditem4 h1{
+    color: #9B59B6;
     font-size: 40px;
     text-align: center;
 }
