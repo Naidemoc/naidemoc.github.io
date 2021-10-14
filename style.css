@@ -143,6 +143,7 @@ body{
 }
 .testinfoText{
     font-size: 25px;
+    color: #34495E;
 }
 .testinfoH{
     font-size: 90px;
@@ -198,6 +199,9 @@ body{
 }
 .testoffTitle a:hover{
     color: blueviolet;
+}
+.testoffList{
+    color: #34495E;
 }
 #testoff1{
     margin-left: 12%;
@@ -275,7 +279,8 @@ body{
     grid-template-rows: 200px 200px 200px 200px;
     grid-template-columns: 40% 40%;
     margin-left: 5%;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     column-gap: 10%;
     row-gap: 50px;
 }
@@ -283,20 +288,27 @@ body{
     background-color: yellow;
 }
 #examplegriditem1{
+    text-align: center;
     grid-column-start: 1;
     grid-column-end: 3;
+    font-size: 42px;
+    color: #9B59B6;
 }
 #examplegriditem2{
+    text-align: center;
     grid-row-start: 2;
-    grid-row-end: 3
+    grid-row-end: 3;
+    color: #34495E;
 }
 #examplegriditem3{
+    text-align: center;
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 3;
 }
 #examplegriditem4{
+    text-align: center;
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 1;
